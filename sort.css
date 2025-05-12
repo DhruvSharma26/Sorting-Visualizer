@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+
+body {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #7c0d5f, #5c3fec);
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #0a3345;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff95ac;
+    color: #1e0505;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ebf4fd;
+}
+
+.parentdiv {
+    padding: 1.3%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: auto;
+    height: auto;
+}
+
+.innerdiv {
+    width: 70px;
+    margin-right: 5px;
+    background-color: #3498db;
+    transition: height 0.3s, background-color 0.3s;
+    position: relative;
+    
+}
+
+.innerdiv span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+
+.innerdiv:last-child {
+    margin-right: 0;
+}
+
+/* Add your existing styles here */
+
+#userArray {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #ecf0f1;
+}
+
+.sort-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff95ac;
+    color: #1e0505;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.sort-btn:hover {
+    background-color: #ebf4fd;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgb(199, 199, 237);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: max-content; /* Adjust the width as needed */
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+    color: #17153c;
+}
+
+.info-box {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #fff;
+}

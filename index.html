@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="sort.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Sorting Visualizer</h1>
+    </div>
+    <div class="container">
+        <label for="userArray">Enter comma-separated numbers:</label>
+        <input type="text" id="userArray" placeholder="e.g., 5, 2, 8, 3, 1">
+        <button onclick="startSorting('bubble')">Bubble Sort</button>
+        <button onclick="startSorting('selection')">Selection Sort</button>
+        <button onclick="startSorting('insertion')">Insertion Sort</button>
+        <button onclick="startSorting('quick')">Quick Sort</button>
+        <button onclick="startSorting('merge')">Merge Sort</button>
+        <button onclick="startSorting('heap')">Heap Sort</button>
+        <button onclick="startSorting('radix')">Radix Sort</button>
+    </div>
+    <div id="user-parentdiv" class="parentdiv"></div>
+
+
+        <div class="info-box">
+            <h2><center>Sorting and Types</center></h2>
+            <p>
+                Sorting is the process of arranging elements in a particular order. It is a fundamental operation in computer science and is used in various applications.
+            </p>
+            <p>
+                Types of Sorting Algorithms:
+            </p>
+            <div>
+            <ul>
+                <li><strong>Bubble Sort:</strong> A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.</li>
+                <li><strong>Selection Sort:</strong> A sorting algorithm that divides the input list into a sorted and an unsorted region. It repeatedly selects the smallest (or largest) element from the unsorted region and swaps it with the first element of the unsorted region.</li>
+                <li><strong>Insertion Sort:</strong> A simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.</li>
+                <li><strong>Merge Sort:</strong> An efficient, stable, and comparison-based sorting algorithm. Most implementations produce a stable sort, meaning that the implementation preserves the input order of equal elements in the sorted output.</li>
+                <li><strong>Quick Sort:</strong> An efficient in-place sorting algorithm with an average and best-case time complexity of O(n log n).</li>
+                <li><strong>Heap Sort:</strong> A comparison-based sorting algorithm that uses a binary heap data structure to build a heap and then sorts the heap.</li>
+                <li><strong>Shell Sort:</strong> An in-place comparison sort. It can be seen as either a generalization of sorting by exchange (bubble sort) or sorting by insertion (insertion sort).</li>
+                <li><strong>Radix Sort:</strong> A non-comparative integer sorting algorithm that sorts data with integer keys by grouping keys by individual digits that share the same significant position and value.</li>
+                <li><strong>Bucket Sort:</strong> A sorting algorithm that distributes the elements of an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm.</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="sort.js"></script>
+</body>
+
+</html>
+
+
